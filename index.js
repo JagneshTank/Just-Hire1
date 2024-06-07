@@ -19,6 +19,6 @@ mongoose
     console.log(e);
 });
 
-app.listen(PORT,"192.168.1.6",() => {
+app.listen(PORT,"ip",() => {
     console.log(`Connected to ${PORT}`);
 });
